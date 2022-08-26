@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-color: rgb(235, 235, 235);
+  background-attachment: fixed;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+h1 {
+  padding-top: 80px;
+  margin: 0 auto;
+  font-family: "Red Hat Display", sans-serif;
+  color: #262F50;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+h4{
+  font-family: "Red Hat Display", sans-serif;
+  margin-bottom: 2px;
+}
+
+img{
+  border-radius: 15px 15px 0 0;
+}
+
+p {
+  line-height: 1.5;
+  font-family: "Red Hat Display", sans-serif;
+  color: #868686;
+}
+
+.item2{
+  font-family: "Red Hat Display", sans-serif;
+  color: #0e0e0e;
+  display: flex;
+  flex-direction: column;
+}
+
+.outter-body{
+  background-color: #E0E8FF;
+  background-image: url("../images/pattern-background-desktop.svg");
+  width: 1440px;
+  margin: 100px auto;
+  background-repeat: no-repeat;
+  height: 900px;
+}
+
+.illustration-hero{
+  margin-top: 100px;
+}
+
+.bottom-div{
+  background-color: rgb(255, 255, 255);
+  width: 450px;
+  margin: -35px auto;
+  height: 520px;
+  border-radius: 0 0 15px 15px;
+  box-shadow: 0 10px 20px hsl(224, 23%, 55%);
+}
+
+.intro {
+  width: 70%;
+  margin: auto;
+}
+
+.payment{
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 8px;
+  width: 80%;
+  margin: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.item{
+  float:left; 
+  width: 33%;
+}
+
+.all-text{
+  padding-bottom: 30px;
+  margin-left: -60px;
+}
+
+.change-link{
+  color: hsl(245, 75%, 52%);
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.change-link:hover{
+  color: #9891E1;
+  text-decoration: none;
+}
+
+.cancel-link{
+  color: hsl(0, 0%, 56%);
+  text-decoration: none;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.cancel-link:hover{
+  color: #353E5A;
+}
+
+.payment-btn{
+  color: white;
+  background-color:  hsl(245, 75%, 52%);
+  border: none;
+  border-radius: 8px;
+  width: 80%;
+  padding: 20px 0;
+  box-shadow: 0 10px 10px hsl(244, 47%, 76%);
+}
+
+.payment-btn:hover{
+  background-color: #756CF1;
+}
+
+.cancel-btn{
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 100px;
+  padding-bottom: 20px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
