@@ -28,7 +28,11 @@ img{
 p {
   line-height: 1.5;
   font-family: "Red Hat Display", sans-serif;
-  color: #868686;
+  color: #767676;
+}
+
+span{
+  color: #a1a1a1;
 }
 
 .item2{
